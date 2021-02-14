@@ -13,9 +13,11 @@ const styles ={
   },
   he1:{
     textAlign: "center",
-  }
+  },
 
-
+   styleLink:{
+     color:"FFFFFF"
+   }
 
 }
 
@@ -32,9 +34,11 @@ const styles ={
         </div>*/}
 
         <p>
-          Copyright &copy; {new Date().getFullYear()} All Rights Reserved by
-          {/* <a href="#">Scanfcode</a>*/}
+          Copyright &copy; {new Date().getFullYear()} All Rights Reserved by  
         </p>
+        <div >
+        <a id="linkFooter" href="https://github.com/ArquimedesFermin/GifExpertApp/" > GitHub Repository</a>
+        </div>
     </div>
   );
 };

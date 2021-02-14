@@ -74,7 +74,7 @@ footer {
   background: #101124;
   text-align: center;
   width: 100%;
-  height: 50px;
+  height: 61px;
   bottom: 0;
   position: absolute;
   padding: 16px;
@@ -118,7 +118,6 @@ footer {
     margin-left: 20%;
     margin-right: 20%;
   }
- 
 }
 /*@media screen and (max-width: 821px) {
   .dis {
@@ -138,3 +137,17 @@ footer {
     overflow: hidden;
 }
 }*/
+
+a {
+  color: whitesmoke;
+}
+a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E %3Cpath fill='none' stroke='white' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: 0.3em;
+  text-decoration: none;
+  color: white;
+}
