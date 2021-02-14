@@ -93,7 +93,7 @@ footer {
 }
 }*/
 
-@media screen and (max-width: 680px) {
+/*@media screen and (max-width: 680px) {
   .subDis {
     padding-bottom: 96px;
     display: flex;
@@ -114,11 +114,11 @@ footer {
   }
   .dis {
     padding-top: 10px;
-    /* padding-bottom: 4%; */
+     padding-bottom: 4%; 
     margin-left: 20%;
     margin-right: 20%;
   }
-}
+}*/
 /*@media screen and (max-width: 821px) {
   .dis {
     padding-top: 10px;
