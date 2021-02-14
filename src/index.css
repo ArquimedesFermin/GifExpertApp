@@ -1,13 +1,140 @@
+* {
+  padding: 0;
+  margin: 0px 0px 0px 0px;
+  box-sizing: border-box;
+}
+input {
+  width: 100%;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0px 0px 0px 0px;
+
+  background-color: whitesmoke;
+  min-height: 100vh;
+  position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card {
+  border-radius: 3px;
+  align-content: center;
+  margin-top: 1%;
+  margin-left: 1%;
+  max-width: 19%;
+  max-height: 20%;
+  overflow: hidden;
 }
+
+.card p {
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+.dis {
+  padding-top: 10px;
+  /*padding-bottom: 4%;*/
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.subDis {
+  padding-bottom: 96px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 74px;
+}
+
+ol {
+  padding: 0px;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+#textLoading {
+  width: 100%;
+  text-align: center;
+}
+
+#textFooterImage {
+  text-align: justify;
+
+  overflow-wrap: break-word;
+}
+
+footer {
+  font-family: ui-rounded;
+
+  color: whitesmoke;
+  background: #101124;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  position: absolute;
+  padding: 16px;
+}
+
+/*@media screen and (max-width: 992px) {
+  .card {
+    border-radius: 3px;
+    align-content: center;
+    margin-top: 4%;
+    margin-left: 5.7%;
+     margin-right: 41%; 
+    max-width: 55%;
+    max-height: 20%;
+    overflow: hidden;
+}
+}*/
+
+@media screen and (max-width: 680px) {
+  .subDis {
+    padding-bottom: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 56px;
+    margin-right: 56px;
+    padding-bottom: 74px;
+  }
+  .card {
+    border-radius: 3px;
+    align-content: center;
+    margin-top: 1%;
+    margin-left: 1px;
+    max-width: 104%;
+    margin-right: -5%;
+    max-height: 20%;
+    overflow: hidden;
+  }
+  .dis {
+    padding-top: 10px;
+    /* padding-bottom: 4%; */
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+ 
+}
+/*@media screen and (max-width: 821px) {
+  .dis {
+    padding-top: 10px;
+     padding-bottom: 4%; 
+    margin-left: 11%;
+    margin-right: 4%;
+}
+  .card {
+    border-radius: 3px;
+    align-content: center;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 4%;
+    max-width: 119%;
+    max-height: 20%;
+    overflow: hidden;
+}
+}*/
