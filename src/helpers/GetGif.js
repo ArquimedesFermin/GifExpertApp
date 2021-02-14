@@ -14,5 +14,6 @@ export const GetGif = async (category) => {
     };
   });
 
+  
   return gif;
 };
