@@ -17,15 +17,17 @@ export const GifExpertApp = () => {
 
   return (
     <>
-    <header>
-        <NavBar setCategory={setCategories} title="Gif Expert" />
-      </header> 
+      <header>
+        <NavBar setCategory={setCategories} title="Gifphy" />
+      </header>
       <main>
-        <ol>
-          {categories.map((category) => (
-            <Giphy key={category} category={category} />
-          ))}
-        </ol>
+       
+          <ol className="dis">
+            {categories.map((category) => (
+              <Giphy key={category} category={category} />
+            ))}
+          </ol>
+       
       </main>
       <footer>
         <Footer />

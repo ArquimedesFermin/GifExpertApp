@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useEffect, useState } from "react";
 import { GetGif } from "../helpers/GetGif";
 
 export const useFecthGif = (data) => {
@@ -6,12 +6,17 @@ export const useFecthGif = (data) => {
     data: [],
     loading: true,
   });
-
+useEffect(()=>{
   GetGif(data).then((imgs) => {
     setState({
       data: imgs,
       loading: false,
     });
   });
+
+},[data])
+  
+
+
   return state;
 };

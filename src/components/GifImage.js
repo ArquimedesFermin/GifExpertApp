@@ -8,7 +8,7 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: "95%",
+    maxWidth: "100%",
   },
 
   text: {
